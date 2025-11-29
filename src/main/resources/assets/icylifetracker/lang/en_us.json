@@ -1,0 +1,13 @@
+{
+  "itemGroup.icylifetracker": "Example Mod Tab",
+  "block.icylifetracker.example_block": "Example Block",
+  "item.icylifetracker.example_item": "Example Item",
+
+  "icylifetracker.configuration.title": "IcyLifeTracker Configs",
+  "icylifetracker.configuration.section.icylifetracker.common.toml": "IcyLifeTracker Configs",
+  "icylifetracker.configuration.section.icylifetracker.common.toml.title": "IcyLifeTracker Configs",
+  "icylifetracker.configuration.items": "Item List",
+  "icylifetracker.configuration.logDirtBlock": "Log Dirt Block",
+  "icylifetracker.configuration.magicNumberIntroduction": "Magic Number Text",
+  "icylifetracker.configuration.magicNumber": "Magic Number"
+}
