@@ -9,7 +9,7 @@ public class Config {
 
     public static final ModConfigSpec.IntValue WARNING_THRESHOLD = BUILDER
             .comment("Trigger warning when the health is less than or equal to this value")
-            .defineInRange("warningThreshold", 20, 1, Integer.MAX_VALUE);
+            .defineInRange("warningThreshold", 6, 1, 20);
 
     static final ModConfigSpec SPEC = BUILDER.build();
 }
