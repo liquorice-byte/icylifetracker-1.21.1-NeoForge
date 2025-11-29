@@ -11,7 +11,7 @@ import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
 @Mod(value = IcyLifeTracker.MODID, dist = Dist.CLIENT)
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = IcyLifeTracker.MODID, value = Dist.CLIENT)
+// @EventBusSubscriber(modid = IcyLifeTracker.MODID, value = Dist.CLIENT)
 public class IcyLifeTrackerClient {
     public IcyLifeTrackerClient(ModContainer container) {
 
