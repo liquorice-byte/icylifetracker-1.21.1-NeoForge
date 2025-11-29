@@ -1,6 +1,8 @@
 package it.liquorice.icylifetracker.Mixins;
 
+import it.liquorice.icylifetracker.Config;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
 import org.spongepowered.asm.mixin.Mixin;
 import net.minecraft.client.gui.Gui;
@@ -14,6 +16,9 @@ import it.liquorice.icylifetracker.IcyLifeTracker;
 public class GameHudMixin {
     @Inject(method = "renderHearts", at = @At("HEAD"))
     private void RenderHeartsInject(GuiGraphics guiGraphics, Player player, int x, int y, int height, int offsetHeartIndex, float maxHealth, int currentHealth, int displayHealth, int absorptionAmount, boolean renderHighlight, CallbackInfo ci) {
-
+        if (currentHealth <= Config.WARNING_THRESHOLD.get()) {
+            final ResourceLocation TEXTURE = ResourceLocation.fromNamespaceAndPath("icylifetracker", "textures/gui/warning.png");
+            guiGraphics.blitSprite(TEXTURE, 5, 5, 16, 16);
+        }
     }
 }

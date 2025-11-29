@@ -12,5 +12,4 @@ public class Config {
             .defineInRange("warningThreshold", 20, 1, Integer.MAX_VALUE);
 
     static final ModConfigSpec SPEC = BUILDER.build();
-
 }
