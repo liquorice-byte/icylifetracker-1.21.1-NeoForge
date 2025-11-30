@@ -1,4 +1,5 @@
 {
   "icylifetracker.configuration.warningThreshold": "Warning threshold",
-  "icylifetracker.configuration.warningThreshold.tooltip": "↑"
+  "icylifetracker.configuration.iconSize": "Icon Size",
+  "icylifetracker.configuration.iconSize.tooltip": "1: 16x, 2: 32x"
 }

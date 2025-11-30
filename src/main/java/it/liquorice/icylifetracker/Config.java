@@ -11,5 +11,9 @@ public class Config {
             .comment("Trigger warning when the health is less than or equal to this value")
             .defineInRange("warningThreshold", 6, 1, 20);
 
+    public static final ModConfigSpec.IntValue ICON_SIZE = BUILDER
+            .comment("The size of the warning icon")
+            .defineInRange("iconSize", 1, 1, 2);
+
     static final ModConfigSpec SPEC = BUILDER.build();
 }

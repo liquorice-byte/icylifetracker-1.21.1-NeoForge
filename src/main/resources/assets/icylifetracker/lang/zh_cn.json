@@ -1,4 +1,6 @@
 {
   "icylifetracker.configuration.warningThreshold": "警告阈值",
-  "icylifetracker.configuration.warningThreshold.tooltip": "↑"
+  "icylifetracker.configuration.warningThreshold.tooltip": "在血量小于等于该值时触发警报",
+  "icylifetracker.configuration.iconSize": "图标大小",
+  "icylifetracker.configuration.iconSize.tooltip": "1: 16x, 2: 32x"
 }
